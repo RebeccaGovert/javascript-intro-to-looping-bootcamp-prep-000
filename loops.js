@@ -13,3 +13,9 @@ function forLoop(givenArray) {
   return strangeArray;
 }
 
+function whileLoop(){
+  
+  while (){
+    
+  }
+}

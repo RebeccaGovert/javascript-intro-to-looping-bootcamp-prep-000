@@ -4,9 +4,10 @@ function forLoop(array) {
   var myOutputLine = `I am ${i} strange loop`;
   for (var i=0; i<array.length; i++) {
     if (i === 1) {
-      myOutputLine += `.`
+      myOutputLine += `.`;
+    
       
-    } else if (array[count]>1 && arrray[count]<26) {
+    } else if (array[count]>1 || arrray[count]<26) {
       var newOutputline = myOutputLine += `s.`;
       count++;
       

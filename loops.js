@@ -1,7 +1,6 @@
 function forLoop(array) {
   var resultsArray= [];
-  var count = 0;
-  var myOutputLine = `I am ${i} strange loop`;
+    var myOutputLine = `I am ${i} strange loop`;
   for (var i=0; i<array.length; i++) {
     if (i === 1) {
       myOutputLine += `.`;

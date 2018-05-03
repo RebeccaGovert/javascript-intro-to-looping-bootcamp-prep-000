@@ -1,5 +1,5 @@
 function forLoop(array) {
-  var results = 'I am ';
+  var resultsA = 'I am ';
   for (let i=0; i<25; i++) {
     if (i===1){
     results.push('I am ' + i + ' strange loop.');

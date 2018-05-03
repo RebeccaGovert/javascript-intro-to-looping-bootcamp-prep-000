@@ -4,7 +4,7 @@ function forLoop(array) {
       console.log( `I am ${i} strang loop.`);
   } else {
     if (i>1) {
-      console.log(`I am ${i} strang loop.`);
+      console.log(`I am ${i} strang loops.`);
     }
   }
   }

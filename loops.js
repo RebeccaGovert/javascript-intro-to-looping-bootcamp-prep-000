@@ -7,12 +7,12 @@ function forLoop(array) {
    if(i===1) {
    myString = `I am ${i} strange loop.` ;
    newArray.push(myString);
-   
- } 
+    } 
  if (i>1 && i<25) {
-     my string = 
+     myString = `I am ${i} strange loops.`
+     count++;
+     newArray.push(myString);
    }
    }
  }
- 
 }

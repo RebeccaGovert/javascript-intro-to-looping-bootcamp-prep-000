@@ -1,22 +1,14 @@
 function forLoop(array) {
  var count= 0;
- var myString = ``;
- var newArray= [];
+  var newArray= [];
  for (var i=0; i<25; i++) {
-   if(i===1) {
-   myString = `I am 1 strange loop.` ;
-   newArray.push(myString);
-    } 
- if (i>1 i<25) {
-     myString = `I am ${i} strange loops.`
-     count++;
-     newArray.push(myString);
+   if(i===1 ? `I am 1 strange loop` : `I am ${i} strange loops.`) {
    }
-   }
- return myArray;
+ }
+ return newArray.push();
 }
-
-
+   
+/*
 const [array, t] = makeArray()
       const strangeArray = forLoop(array)
 

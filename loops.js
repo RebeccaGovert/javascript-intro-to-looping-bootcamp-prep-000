@@ -6,7 +6,9 @@ function forLoop(givenArray) {
       strangeArray.push("I am 1 strange loop.");
     }
     if (i>1 && i<25) {
-      
-    }
+      strangeArray.push(`I am ${i} strange loops.`);
+      count++;
   }
+  }
+  return strangeArray;
 }

@@ -3,12 +3,12 @@ function forLoop(array) {
  var i = 0;
  var myString = ``;
  var newArray= [];
- for (i=0; i<array.length; i++) {
+ for (i=0; i<25; i++) {
    if(i===1) {
-   myString = `I am ${i} strange loop.` ;
+   myString = `I am 1 strange loop.` ;
    newArray.push(myString);
     } 
- if (i>1 && i<25) {
+ if (i>1 i<25) {
      myString = `I am ${i} strange loops.`
      count++;
      newArray.push(myString);

@@ -7,8 +7,9 @@ function forLoop(array) {
       myOutputLine += `.`
       
     } else if (i[count]>1 && i[count]<26) {
-      newOutputline = myOutputLine += `s.`;
+      var newOutputline = myOutputLine += `s.`;
       count++;
+      
   }
   return resultsArray.push(myOutputLine) + (newOutputline);
 }

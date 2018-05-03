@@ -12,3 +12,4 @@ function forLoop(array) {
   }
   return resultsArray.push(myOutputLine) + (newOutputline);
 }
+}
